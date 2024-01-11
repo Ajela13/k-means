@@ -69,3 +69,8 @@ plt.xlabel('Age')
 plt.ylabel('Annual income')
 plt.legend()
 plt.show()
+
+#for each data point the assigned cluster (cluster number varies from 0 to 4)
+labels_scaled=kmeans_scaled.labels_
+#position of each centroid
+centroids_scaled=kmeans_scaled.cluster_centers_ 
